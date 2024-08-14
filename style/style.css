@@ -289,23 +289,26 @@ nav > .right {
   width: 70%;
   text-align: end;
 }
-.play_isntantly_right {
+.play_isntantly_right,
+.play_games_left {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
-}
-
-.play_isntantly_img_1 {
-  width: 550px;
-  height: auto;
   position: relative;
 }
-.play_isntantly_img_2 {
+
+.play_isntantly_img_1,
+.play_games_img_1 {
+  width: 550px;
+  height: auto;
+}
+.play_isntantly_img_2,
+.play_games_img_2 {
   width: 270px;
   position: absolute;
-  margin: 25% 23% 0 0;
+  margin: 60% 55% 0 0;
 }
 
 .play_games_section {
@@ -317,15 +320,28 @@ nav > .right {
 .play_games_container {
   display: flex;
 }
-
 .play_game_left {
-  width: 35%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  align-items: center;
+  align-items: end;
+  position: relative;
 }
+
+.position_adjust {
+  margin: 70% -15% 0 0;
+}
+/* .play_games_img_1 {
+  width: 90%;
+  height: auto;
+}
+.play_games_img_2 {
+  width: 270px;
+  position: absolute;
+  margin: 25% 0 0 -10%;
+} */
+
 .play_games_right > h1 {
   font-size: 3rem;
   width: 70%;
@@ -339,21 +355,11 @@ nav > .right {
   text-align: start;
 }
 .play_games_right {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
-}
-
-.play_games_img_1 {
-  width: 600px;
-  height: auto;
-  position: relative;
-}
-.play_games_img_2 {
-  width: 270px;
-  position: absolute;
-  margin: 20% 0 0 -10%;
 }
 
 .play_games_section,
@@ -410,4 +416,7 @@ nav > .right {
   border: none;
   color: #ff42a5;
   border-radius: 2rem;
+}
+.career_right > img {
+  width: 100%;
 }
