@@ -319,6 +319,7 @@ nav > .right {
 
 .play_games_container {
   display: flex;
+  padding: 10%;
 }
 .play_game_left {
   width: 60%;
@@ -329,18 +330,12 @@ nav > .right {
   position: relative;
 }
 
+.play_games_img_1 > img {
+  width: 110%;
+}
 .position_adjust {
   margin: 70% -15% 0 0;
 }
-/* .play_games_img_1 {
-  width: 90%;
-  height: auto;
-}
-.play_games_img_2 {
-  width: 270px;
-  position: absolute;
-  margin: 25% 0 0 -10%;
-} */
 
 .play_games_right > h1 {
   font-size: 3rem;
