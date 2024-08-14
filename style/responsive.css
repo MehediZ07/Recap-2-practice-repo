@@ -1,0 +1,144 @@
+@media screen and (max-width: 576px) {
+  nav,
+  nav > .right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    width: 100%;
+  }
+  nav > .left,
+  nav > .right {
+    width: 100%;
+    justify-content: center;
+  }
+  .follow-us-btn {
+    margin-left: -15%;
+  }
+  .right > a {
+    padding-bottom: 5%;
+  }
+  .hero_banner_container {
+    flex-direction: column-reverse;
+  }
+  .hero_banner_right > img,
+  .We_are_Gamer_left > img {
+    width: 100%;
+  }
+  .hero_banner_left,
+  .hero_banner_right,
+  .We_are_Gamer_left,
+  .play_isntantly_left,
+  .play_isntantly_right {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .We_are_Gamer-right {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .We_are_Gamer_container {
+    flex-direction: column;
+  }
+  .We_are_Gamer-right > h4 {
+    padding-top: 3%;
+    color: rgba(56, 56, 56, 0.767);
+    font-size: 0.9rem;
+  }
+  .We_are_Gamer-right > h3 {
+    padding-top: 3%;
+    font-size: 1.1rem;
+    color: rgb(70, 69, 69);
+    padding-bottom: 10%;
+  }
+  .online_games_container > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .online_games_container > p {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .online_games_container > div,
+  .play_isntantly_container {
+    flex-direction: column;
+  }
+  .play_isntantly_left > h1 {
+    font-size: 3rem;
+    width: 70%;
+    text-align: end;
+  }
+  .play_isntantly_left > p {
+    padding-top: 3%;
+    font-size: 1rem;
+    line-height: 2rem;
+    width: 70%;
+    text-align: end;
+  }
+
+  .image-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  .play_isntantly_img_1 {
+    padding-top: 5%;
+    width: 70%;
+    margin: 0 10% 0 20%;
+  }
+  .play_isntantly_img_2 {
+    width: 30%;
+    margin: 50% 55% 0 0;
+  }
+  .play_isntantly_left > h1 {
+    font-size: 1.5rem;
+    width: 75%;
+    text-align: center;
+  }
+  .play_isntantly_left > p {
+    padding-top: 3%;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    width: 75%;
+    text-align: center;
+  }
+  .play_games_container {
+    flex-direction: column-reverse;
+  }
+  .play_games_img_1 {
+    padding-top: 5%;
+    width: 70%;
+    margin: 0 20% 0 10%;
+  }
+  .play_games_img_2 {
+    width: 30%;
+    position: absolute;
+    margin: 45% 0 0 -40%;
+  }
+
+  .play_game_left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .play_games_right {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: -8%;
+  }
+  .play_games_right > h1 {
+    font-size: 1.5rem;
+
+    text-align: center;
+  }
+  .play_games_right > p {
+    padding-top: 3%;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+}
